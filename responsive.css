@@ -1,0 +1,88 @@
+@media(max-width: 375px){
+    .header{
+        background: url(images/bg-header-mobile.png);
+    }
+}
+
+@media(max-width: 768px){
+    .introduction h1{
+        font-size: 30px;
+    }
+    p{ 
+        font-size: 16px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .first p{
+        padding: 0 15px;
+    }
+    .first .infos{
+        display: block;
+        justify-items: center;
+        text-align: center;
+    }
+    .first img{
+        max-width: 350px;
+        margin-bottom: 25px;
+    }
+    .first .infos p{
+        max-width: 250px;
+    }
+    .second p{
+        padding: 0 25px;
+    }
+    .second img{
+        max-width: 350px;
+    }
+    .page-tools{
+        justify-self: center;
+    }
+    .page-tools p{
+        max-width: 220px;
+        justify-self: center;
+    }
+    .page-tools .tools{
+        display: block;
+    }
+    .enterprises{
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        justify-self: center;
+    }
+    .enterprises img{
+        padding: 45px;
+    }
+    .downloads{
+        margin-bottom: 30px;
+    }
+    .footer{
+        display: block;
+        justify-self: center;
+        text-align: center;
+    }
+    .footer .infos{
+        display: flex;
+        flex-direction: column;
+        padding: 25px 0;
+    }
+}
+
+@media(max-width: 900px){
+    .first .infos{
+        display: block;
+        justify-items: center;
+        text-align: center;
+    }
+    .first .infos img{
+        margin-bottom: 30px;
+    }
+
+    .second img{
+        width: 800px;
+    }
+    .enterprises img{
+        padding: 40px 50px;
+    }
+}

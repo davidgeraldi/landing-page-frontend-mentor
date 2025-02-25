@@ -83,6 +83,7 @@ h2{
 .first .infos{
     display: flex;
     gap: 50px;
+    padding: 20px;
 }
 .first .infos .description{
     align-self: center;
